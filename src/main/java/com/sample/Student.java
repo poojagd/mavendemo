@@ -6,8 +6,13 @@ import com.google.gson.annotations.Since;
 public class Student {
 	
 	
-	//@Expose(serialize = false, deserialize = false)
+     //@Expose(serialize = false, deserialize = false)
      public String name=null;
-     public int rollno=0;
+     public int rollNo=0;
+     
+     public Student(String name , int rollNo) {
+    	 this.name=name;
+    	 this.rollNo=rollNo;
+     }
      
 }
